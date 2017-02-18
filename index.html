@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 		<script type="text/javascript" src="js/three.min.js" ></script>
 		<script type="text/javascript" src="js/OBJLoader.js" ></script>
 		<script type="text/javascript" src="js/MTLLoader.js" ></script>
@@ -53,8 +54,19 @@
             vertical-align:middle;
             content:"";
 		}
+		#box{
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
 	</style>
 	<body>
+		<div id="box">
+			
+		</div>
 		<div id="world">
 			<!--画布-->
 		</div>
